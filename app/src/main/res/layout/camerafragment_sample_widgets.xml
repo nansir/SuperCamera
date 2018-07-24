@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".CameraFragmentMainActivity">
+
+    <com.sir.library.camera.widgets.RecordButton
+        android:id="@+id/record_button"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp" />
+
+    <com.sir.library.camera.widgets.MediaActionSwitchView
+        android:id="@+id/photo_video_camera_switcher"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:checked="false"
+        android:gravity="center" />
+
+    <com.sir.library.camera.widgets.FlashSwitchView
+        android:id="@+id/flash_switch_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp" />
+
+    <com.sir.library.camera.widgets.CameraSwitchView
+        android:id="@+id/front_back_camera_switcher"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp" />
+
+    <com.sir.library.camera.widgets.CameraSettingsView
+        android:id="@+id/settings_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp" />
+
+</LinearLayout>
